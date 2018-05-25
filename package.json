@@ -7,7 +7,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://work.codinq.com/research/systemjs-babel.git"
+        "url": "git+https://github.com/CoskunSunali/systemjs-typescript.git"
     },
     "scripts": {
         "debug": "node --inspect-brk=9229 build.js",
