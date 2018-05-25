@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "dom",
+            "es5",
+            "es2015"
+        ],
+        "module": "system",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "baseUrl": ".",
+        "paths": {
+            "module1/*": [
+                "src/module1/*"
+            ],
+            "module2/*": [
+                "src/module2/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}

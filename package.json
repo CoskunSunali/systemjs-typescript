@@ -1,0 +1,25 @@
+{
+    "name": "systemjs-babel",
+    "version": "0.1.0",
+    "description": "systemjs-babel",
+    "author": "Coskun Sunali",
+    "homepage": "https://sunali.com",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://work.codinq.com/research/systemjs-babel.git"
+    },
+    "scripts": {
+        "debug": "node --inspect-brk=9229 build.js",
+        "start": "node build.js"
+    },
+    "dependencies": {
+        "@types/systemjs": "0.20.6",
+        "systemjs": "0.21.3"
+    },
+    "devDependencies": {
+        "systemjs-builder": "0.16.13",
+        "plugin-typescript": "8.0.0",
+        "typescript": "2.8.3"
+    }
+}
